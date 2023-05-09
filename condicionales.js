@@ -49,7 +49,7 @@ if (opcion === 1){
 }
 
 
-switch(option){
+switch(opcion){
     case 1:
         console.log('Opcion 1');
         break;
@@ -114,3 +114,17 @@ if(!(a > b) && !(a > c)){
 let mayor = edad >= 18 ? true : false;
 let hora = 9
 let saludo = hora >= 8 && hora <= 12 ? "Buenos dias" : "Buenas Tardes"
+
+
+
+Math.random() //0 y 1  0.999999
+
+Math.floor((Math.random() * 10)) + 1; // 1 y 10
+
+
+Math.floor(1.6); // 1
+Math.ceil(1.2); // 2
+Math.round(1.2); // 1
+Math.round(1.5); // 2
+
+console.log(Math.round(1.5))
